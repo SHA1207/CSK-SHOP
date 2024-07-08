@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+}
+body {
+  font-family:"Barlow";
+}
+.navbar {
+    position: sticky;
+    background-image: url('https://www.chennaisuperkings.com/shop/_next/static/media/header_mask_group.d73a1d96.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.navbar .nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+  color: #0066b3;
+  cursor: pointer;
+  margin-top:12px;
+}
+
+.navbar .nav-item .btn-primary {
+  background-color: #0066b3;
+  height: 35px;
+  border-radius: 70px;
+  color: #ffcb05;
+  font-size: 16px;
+  font-weight: 700;
+  width: 68px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.dropdown-toggle::after {
+  content: none; /* Removes the dropdown indicator */
+}
+
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff; 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+/* Style for dropdown items*/ 
+.dropdown-menu a {
+  color: black !important; 
+  padding: 1px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: large;
+}
+
+.dropdown-menu a:hover {
+  color: yellow !important; /* Text color on hover */
+  background-color: white;
+}
+
+/* Display dropdown menu when hovering over the toggle */
+.nav-item.dropdown:hover .dropdown-menu {
+  z-index: 1;
+  display: block;
+}
+
+.fixed-image {
+  position: fixed;
+  top: 72px; 
+  width: 100%;
+  z-index: 1020; /* Ensure it is above other content */
+  text-align: center; /* Center the image horizontally */
+  padding: 0;
+  margin: 0;
+  vertical-align:middle;
+}
+
+
+.fixed-image img {
+  width: 15%;
+  height:100%;
+}
+
+.cover {
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  margin-top:0px;
+}
+
+.sidebar {
+  max-height: 200vh;
+  width:20%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+.sidebar .nav-head {
+  padding: 8px 16px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.9375rem;
+  text-transform: uppercase;
+  color: #222529;
+}
+.sidebar .nav-item a {
+
+  font-weight: 450;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  color: #343434;
+}
+
+.sidebar .nav-item .submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar .nav-item .submenu li {
+  padding-left: 20px;
+}
+.sidebar .nav-item .submenu li a {
+  padding: 4px 16px;
+}
+
+.row{
+  top:69%;
+  margin-left:30%;
+  margin-right:5%;
+  position: absolute;
+}
+.col .card {
+  border-radius: 15px; /* Make the card corners a little curved */
+  box-shadow: 3px 1px 33px -12px rgba(190,184,184,1); /* Add a mild shadow */
+}
+.card-img-top {
+  height: 200px;
+  width:100%;
+  object-fit: cover;
+  padding:5% 30% 2% 30%;; /* Add padding here */
+}
+
+.card-img-top:hover {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.card-body p{
+  
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    letter-spacing: -.2px;
+    color: #222529;
+  
+}
+.footer-bg {
+background-color: #0066b3;
+color: white;
+height:15vh;
+}
+
+.footer-text {
+  color: white;
+  font-weight: 600;
+}
+
+.d-flex i{
+  background-color: white;
+}
+
+.d-flex {
+  padding-left:10%; 
+}
+
+footer nav{
+  padding-right:20%;
+}
